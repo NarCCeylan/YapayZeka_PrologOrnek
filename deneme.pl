@@ -1,0 +1,15 @@
+satin_alabilir(X,Y):-
+sahis(X),
+araba(Y),
+hoslanir(X,Y),
+satilik(Y).
+sahis(ahmet).
+sahis(pakize).
+araba(buick).
+araba(bmw).
+araba(passat).
+hoslanir(pakize,buick).
+hoslanir(ahmet,bmw).
+satilik(bmw).
+satilik(buick).
+satilik(passat).

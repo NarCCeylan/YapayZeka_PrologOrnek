@@ -1,0 +1,1 @@
+iki_kat:- write(‘Sayı girin = '), read(X), nl,write(‘İki katı =  '), Y is 2*X, write(Y),nl. 
